@@ -26,8 +26,7 @@ Then click on "API" to display your API credentials.
 
 Please take note of both the API token and Secret Key as you will use these two values as the username and password respectively when making requests to the Sellbrite API. Here is a cURL example of making a request for all your orders:
 
-cURL
-```
+```cURL
 curl --user auth_token:secret_key "https://api.sellbrite.com/v1/orders/7777"
 ```
 
