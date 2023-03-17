@@ -22,25 +22,19 @@
 
 Most channels do not require and do not accept carrier specific shipping methods. One exception is Sears, which requires a specific shipping method name that is compatible with the provided carrier name. Below is a list of accepted shipping methods that you can provide when creating a shipment for a specific carrier in Sellbrite. Sellbrite will use this in the api call to the channel if it is required.
 
-**Examples**
-
+[block:api-header]
+{
+  "title": "Examples"
+}
+[/block]
 shipping carrier: "USPS"
-
 shipping method: "Priority Mail"
 
-
-
 shipping carrier: "USPS"
-
 shipping method: "Priority Mail International"
 
-
-
 shipping carrier: "DHL eCommerce"
-
 shipping method: "Domestic Express Doc"
-
-
 
 USPS
 ```
