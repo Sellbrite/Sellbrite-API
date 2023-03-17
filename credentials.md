@@ -37,8 +37,9 @@ Please take note of both the API token and Secret Key as you will use these two 
 }
 [/block]
 
-```cURL
+Please see the [reference guides](reference/introduction) for more examples. If you need more support, please send any questions to [developer@sellbrite.com](mailto:developer@sellbrite.com)
+
+``` cURL
 curl --user auth_token:secret_key "https://api.sellbrite.com/v1/orders/7777"
 ```
 
-Please see the [reference guides](reference/introduction) for more examples. If you need more support, please send any questions to [developer@sellbrite.com](mailto:developer@sellbrite.com)
