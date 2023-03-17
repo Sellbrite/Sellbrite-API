@@ -25,27 +25,15 @@ Each channel varies on the carrier name that they accept. Below is a list of pre
 Carrier Names
 ```
 USPS
-
 UPS
-
 FedEx
-
 Australia Post
-
 Canada Post
-
 Deutsche Post
-
 DHL eCommerce
-
 DHL Express
-
 Lasership
-
 OnTrac
-
 Royal Mail
-
 Other
-
 ```
