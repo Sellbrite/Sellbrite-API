@@ -1,47 +1,70 @@
----
-title: "/channels"
-slug: "channels"
-excerpt: "Get a list of channels"
-hidden: false
-createdAt: "2017-01-31T00:31:26.497Z"
-updatedAt: "2017-05-25T22:04:35.789Z"
----
-[block:api-header]
-{
-  "type": "basic",
-  "title": "Channel properties"
-}
-[/block]
+# /channels
 
-[block:parameters]
+GET https://api.sellbrite.com/v1/channels
+
+Get a list of channels
+
+---
+
+### Menu
+
+[/channels (GET)](channels)
+
+[/warehouses (GET)](channels)
+  * [/warehouses (POST)](channels)
+  * [/warehouses (PUT)](channels)
+
+[/orders (GET)](channels)
+  * [/orders/:sb_order_seq (GET)](channels)
+  * [/warehouses/fulfillments/:uuid (GET)](channels)
+
+[/shipments (POST)](channels)
+
+[/products (GET)](channels)
+  * [/products/{sku} (GET)](channels)
+  * [/products/{sku} (POST)](channels)
+  * [/products/{sku} (DELETE)](channels)
+  * [/variation_groups (GET)](channels)
+  * [/variation_groups/{sku} (PUT)](channels)
+  * [/variation_groups/{sku} (DELETE)](channels)
+  
+[/inventory (GET)](channels)
+  * [/inventory (POST)](channels)
+  * [/inventory (PUT)](channels)
+  * [/inventory (PATCH)](channels)
+  
+---
+
+### Channel properties
+
+| Parameter                 | Description                           | Type   |
+| ------------------------- | ------------------------------------- | ----   |
+| uuid                      | Channel identifier                    | String |
+| name                      | Merchant provided name of the channel | String |
+| state                     | Connection status of the channel \n "*active*": Channel is active \n "*inactive*": Channel has been deactivated by the merchant \n "*disconnected*": Channel has been disconnected as a result of an invalid token.  | String |
+| channel_type_display_name | Channel type display name ("eBay", "Amazon", "Etsy", etc.) | String |
+| created_at                | When channel was created in Sellbrite (ISO 8601) | String |
+| site_id                   | Marketplace region id                 | String |
+| channel_site_region       | Name of the site region of the channel ("Amazon.co.uk (United Kingdom)", "eBay UK") \n *For international channels*  | String |
+
+### Responses
+
+🟢 *200* \n
+Response Body \n
+[
+  {
+    *uuid*: String,
+    *name*: String,
+    *state*: String,
+    *channel_type_display_name*: string,
+    *created_at*: string,
+    *site_id*: string,
+    *channel_site_region*: string
+  }
+]
+
+🔴 *400* \n
+Response Body \n
 {
-  "data": {
-    "0-0": "uuid",
-    "0-1": "Channel identifier.",
-    "h-0": "Parameter",
-    "h-1": "Description",
-    "h-2": "Type",
-    "0-2": "String",
-    "1-0": "name",
-    "1-1": "Merchant provided name of the channel",
-    "1-2": "String",
-    "2-0": "state",
-    "2-1": "Connection status of the channel.\n<p></p>\n**\"active\"**: Channel is active\n**\"inactive\"**: Channel has been deactivated by the merchant\n**\"disconnected\"**: Channel has been disconnected as a result of an invalid token.",
-    "2-2": "String",
-    "3-0": "channel_type_display_name",
-    "3-1": "Channel type display name (\"eBay\", \"Amazon\", \"Etsy\", etc.)",
-    "3-2": "String",
-    "4-0": "created_at",
-    "4-1": "When channel was created in Sellbrite (ISO 8601).",
-    "4-2": "String",
-    "5-0": "site_id",
-    "5-1": "Marketplace region id",
-    "5-2": "String",
-    "6-0": "channel_site_region",
-    "6-1": "Name of the site region of the channel (\"Amazon.co.uk (United Kingdom)\", \"eBay UK\")\n** *For international channels **",
-    "6-2": "String"
-  },
-  "cols": 3,
-  "rows": 7
 }
-[/block]
+
