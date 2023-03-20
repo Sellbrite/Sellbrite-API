@@ -63,7 +63,8 @@ Response Body <br>
     * **created_at**: string, <br>
     * **site_id**: string, <br>
     * **channel_site_region**: string <br>
-  * } <br>
+  * }
+  
 ]
 
 🔴 **400** 
