@@ -20,6 +20,8 @@ Information regarding rate limits for the Sellbrite API.
 
 [Shipping Carries and Methods](shipping-carries)
 
+[Endpoints](../endpoints/channels)
+
 ---
 
 Clients who use the Sellbrite API are subjected to two rate limits:

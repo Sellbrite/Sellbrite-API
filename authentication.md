@@ -12,6 +12,8 @@
 
 [Authentication](authentication)
 
+[API Reference](reference/introduction)
+
 ---
 
 The Sellbrite API uses Basic HTTP authentication. Please use your `account token` as the "username" and the `secret key` as the "password." The `account token` and `secret key` can be found under the "API" section of the settings page of your Sellbrite account. The Authorization field is constructed as follows:

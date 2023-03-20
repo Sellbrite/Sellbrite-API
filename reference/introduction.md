@@ -18,6 +18,8 @@
 
 [Shipping Carries and Methods](shipping-carries)
 
+[Endpoints](../endpoints/channels)
+
 ---
 
 Welcome to the Sellbrite API!

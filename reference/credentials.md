@@ -18,6 +18,8 @@
 
 [Shipping Carries and Methods](shipping-carries)
 
+[Endpoints](../endpoints/channels)
+
 ---
 
 For information about how to access and obtain your API credentials, please review [this API Guide](../credentials).

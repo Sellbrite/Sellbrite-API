@@ -12,6 +12,8 @@
 
 [Authentication](authentication)
 
+[API Reference](reference/introduction)
+
 ---
 
 The Sellbrite API is currently only available on certain Sellbrite plans. [Visit our Pricing page](https://www.sellbrite.com/pricing-pro/) to see which plans include API access.

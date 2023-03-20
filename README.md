@@ -14,6 +14,8 @@ This page will help you get started with the Sellbrite API. You'll be up and run
 
 [Authentication](authentication)
 
+[API Reference](reference/introduction)
+
 ---
 
 Sellbrite is the smarter way to build, automate and grow your multi-channel ecommerce business, and helps you reach new customers no matter where they shop. Create and manage listings, control and sync inventory, and fulfill orders all from a single, intuitive interface that you’ll love using.

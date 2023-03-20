@@ -20,6 +20,8 @@ Information regarding date-time related values in the Sellbrite API
 
 [Shipping Carries and Methods](shipping-carries)
 
+[Endpoints](../endpoints/channels)
+
 ---
 
 Sellbrite uses the ISO 8601 time format for all datetime values. Datetime stamps that are submitted to and returned from the API will be in this format. For example:
