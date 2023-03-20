@@ -1,9 +1,8 @@
 # /channels
 
-```diff
-+ GET
 ```
- https://api.sellbrite.com/v1/channels
+GET https://api.sellbrite.com/v1/channels
+```
 
 Get a list of channels
 
@@ -44,52 +43,32 @@ Get a list of channels
 | ------------------------- | ------------------------------------- | ----   |
 | uuid                      | Channel identifier                    | String |
 | name                      | Merchant provided name of the channel | String |
-| state                     | Connection status of the channel 
-
-*active*: Channel is active
- 
-*inactive*: Channel has been deactivated by the merchant 
-
-*disconnected*: Channel has been disconnected as a result of an invalid token.  | String |
+| state                     | Connection status of the channel <br> *active*: Channel is active <br> *inactive*: Channel has been deactivated by the merchant <br> *disconnected*: Channel has been disconnected as a result of an invalid token.  | String |
 | channel_type_display_name | Channel type display name ("eBay", "Amazon", "Etsy", etc.) | String |
 | created_at                | When channel was created in Sellbrite (ISO 8601) | String |
 | site_id                   | Marketplace region id                 | String |
-| channel_site_region       | Name of the site region of the channel ("Amazon.co.uk (United Kingdom)", "eBay UK")
-
-*For international channels*  | String |
+| channel_site_region       | Name of the site region of the channel ("Amazon.co.uk (United Kingdom)", "eBay UK") <br> *For international channels*  | String |
 
 ### Responses
 
 🟢 *200* 
 
-Response Body 
-[
-
-  {
-
-    *uuid*: String,
-
-    *name*: String,
-
-    *state*: String,
-
-    *channel_type_display_name*: string,
-
-    *created_at*: string,
-
-    *site_id*: string,
-
-    *channel_site_region*: string
-
-  }
-
+Response Body <br>
+[ <br>
+  { <br>
+    *uuid*: String, <br>
+    *name*: String, <br>
+    *state*: String, <br>
+    *channel_type_display_name*: string, <br>
+    *created_at*: string, <br>
+    *site_id*: string, <br>
+    *channel_site_region*: string <br>
+  } <br>
 ]
 
 🔴 *400* 
 
-Response Body 
-
-{
-
+Response Body <br>
+{ <br>
 }
 
