@@ -40,13 +40,13 @@ POST https://api.sellbrite.com/v1/shipments
 ```
 {
   shipment: {
-    sb_order_seq: int32, (<span style="color:red">required</span> Sellbrite generated sequence number)
-    carrier_name: String, (<span style="color:red">required</span> Name of the carrier used to ship the order. ("UPS", "USPS", "FedEx", etc.))
-    tracking_number: String, (<span style="color:red">required</span> Tracking number for this shipment)
-    items: [ (<span style="color:red">required</span>)
+    sb_order_seq: int32, (REQUIRED, Sellbrite generated sequence number)
+    carrier_name: String, (REQUIRED, Name of the carrier used to ship the order. ("UPS", "USPS", "FedEx", etc.))
+    tracking_number: String, (REQUIRED, Tracking number for this shipment)
+    items: [ (REQUIRED)
       {
-        sku: String, (<span style="color:red">required</span> SKU of what is being shipped (This needs to match the order item sku. If it does not match, we attempt to match on the inventory_sku. If neither match, an error will be raised))
-        quantity: int32 (<span style="color:red">required</span> Quantity that is being shipped)
+        sku: String, (REQUIRED, SKU of what is being shipped (This needs to match the order item sku. If it does not match, we attempt to match on the inventory_sku. If neither match, an error will be raised))
+        quantity: int32 (REQUIRED, Quantity that is being shipped)
       }
     ],
     shipping_method: String, (Shipping method of the shipment ("Priority", "2 Day", "Express" etc.))
