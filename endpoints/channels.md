@@ -57,13 +57,13 @@ Response Body
 ```
 [
   {
-    **uuid**: String,
-    **name**: String,
-    **state**: String,
-    **channel_type_display_name**: String,
-    **created_at**: String,
-    **site_id**: String,
-    **channel_site_region**: String
+    uuid: String,
+    name: String,
+    state: String,
+    channel_type_display_name: String,
+    created_at: String,
+    site_id: String,
+    channel_site_region: String
   }
 ]
 ```

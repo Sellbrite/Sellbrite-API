@@ -61,16 +61,16 @@ Response Body
 ```
 [
   {
-    **uuid**: String,
-    **name**: String,
-    **inventory_master**: String,
-    **address_1**: String,
-    **address_2**: String,
-    **city**: String,
-    **state_region**: String,
-    **postal_code**: String,
-    **country_code**: String,
-    **archived**: Boolean
+    uuid: String,
+    name: String,
+    inventory_master: String,
+    address_1: String,
+    address_2: String,
+    city: String,
+    state_region: String,
+    postal_code: String,
+    country_code: String,
+    archived: Boolean
   }
 ]
 ```
