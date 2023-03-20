@@ -41,18 +41,20 @@ Create a warehouse resource
 
 ```
 {
-  name: String,
-  sender_name: String,
-  company_name: String,
-  email: String,
-  phone_number: String,
-  address_1: String,
-  address_2: String,
-  postal_code: String,
-  city: String,
-  region: String,
-  country_code: String,
-  enable_shipstation: Boolean
+  warehouse: {
+    name: String,
+    sender_name: String,
+    company_name: String,
+    email: String,
+    phone_number: String,
+    address_1: String,
+    address_2: String,
+    postal_code: String,
+    city: String,
+    region: String,
+    country_code: String,
+    enable_shipstation: Boolean
+  }
 }
 ```
 

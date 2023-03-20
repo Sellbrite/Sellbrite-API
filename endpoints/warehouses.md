@@ -37,7 +37,7 @@ Get a list of warehouses
   
 ---
 
-### Channel properties
+### Warehouse properties
 
 | Parameter                 | Description                           | Type   |
 | ------------------------- | ------------------------------------- | ----   |
