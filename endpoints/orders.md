@@ -38,6 +38,7 @@ Get a list of all orders (if fetching orders for fulfillment purposes, use /ware
 ---
 
 > 🚧 Note on order limit
+> 
 > * Each request to the GET `/orders` endpoint will by default return 100 order records if a limit is not set.
 > * The **limit** for each request is also 100 records. So even if you set the limit to 200, the response will only return 100 records.
 

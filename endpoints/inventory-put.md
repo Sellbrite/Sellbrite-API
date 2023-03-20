@@ -40,9 +40,11 @@ Exactly one of "on_hand" or "available" field must exist for each individual inv
 ---
 
 > 🚧 Note on update limits
+> 
 > Only 50 inventory records can be updated per API call to the PUT /inventory endpoint
 
 > 📘 A word on when to use "on_hand" vs "available"
+> 
 > Sellbrite uses 3 internal values to track inventory: "on_hand", "reserved" and "available". "on_hand" is the value Sellbrite believes to be physically present in a warehouse, while "reserved" is the assignment of open orders against that inventory. "available" is always "on_hand minus reserved" and it is what Sellbrite uses to sync remaining available inventory to the listings. Using the api you may update either "on_hand" or "available" and Sellbrite will adjust the other internal values.
 > 
 > Send us "available" instead of "on_hand" to avoid the double deduction problem as described here:
