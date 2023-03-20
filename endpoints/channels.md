@@ -55,15 +55,15 @@ Get a list of channels
 
 Response Body <br>
 [ <br>
-  { <br>
-    **uuid**: String, <br>
-    **name**: String, <br>
-    **state**: String, <br>
-    **channel_type_display_name**: string, <br>
-    **created_at**: string, <br>
-    **site_id**: string, <br>
-    **channel_site_region**: string <br>
-  } <br>
+  * { <br>
+    * **uuid**: String, <br>
+    * **name**: String, <br>
+    * **state**: String, <br>
+    * **channel_type_display_name**: string, <br>
+    * **created_at**: string, <br>
+    * **site_id**: string, <br>
+    * **channel_site_region**: string <br>
+  * } <br>
 ]
 
 🔴 **400** 
