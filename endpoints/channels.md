@@ -43,15 +43,15 @@ Get a list of channels
 | ------------------------- | ------------------------------------- | ----   |
 | uuid                      | Channel identifier                    | String |
 | name                      | Merchant provided name of the channel | String |
-| state                     | Connection status of the channel <br> *active*: Channel is active <br> *inactive*: Channel has been deactivated by the merchant <br> *disconnected*: Channel has been disconnected as a result of an invalid token.  | String |
+| state                     | Connection status of the channel <br> **active**: Channel is active <br> **inactive**: Channel has been deactivated by the merchant <br> **disconnected**: Channel has been disconnected as a result of an invalid token.  | String |
 | channel_type_display_name | Channel type display name ("eBay", "Amazon", "Etsy", etc.) | String |
 | created_at                | When channel was created in Sellbrite (ISO 8601) | String |
 | site_id                   | Marketplace region id                 | String |
-| channel_site_region       | Name of the site region of the channel ("Amazon.co.uk (United Kingdom)", "eBay UK") <br> *For international channels*  | String |
+| channel_site_region       | Name of the site region of the channel ("Amazon.co.uk (United Kingdom)", "eBay UK") <br> **For international channels**  | String |
 
 ### Responses
 
-🟢 *200* 
+🟢 **200** 
 
 Response Body <br>
 [ <br>
@@ -66,7 +66,7 @@ Response Body <br>
   } <br>
 ]
 
-🔴 *400* 
+🔴 **400** 
 
 Response Body <br>
 { <br>
