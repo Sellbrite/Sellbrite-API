@@ -38,7 +38,6 @@ List open orders assigned to specified warehouse
 ---
 
 > 📘 Notes on fulfillment_quantity field
->
 > The /warehouses/fulfillments/:uuid will return all of the same data fields found on the /orders endpoint, but will also include the fulfillment_quantity field.
 
 | Parameter                 | Description                           | Type   |
