@@ -30,3 +30,7 @@ the authorization field should end up as Authorization: "Basic QWxhZGRpbjpPcGVuU
 curl --user aladdin:opensesame "https://app.sellbrite.com/api/v1/orders/7777"
 ```
 
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
+

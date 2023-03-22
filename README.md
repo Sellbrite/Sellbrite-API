@@ -26,5 +26,5 @@ Before getting started, you'll need to [sign up for a Sellbrite account](https:/
 
 <br><br><br>
 
-If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions)
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
 

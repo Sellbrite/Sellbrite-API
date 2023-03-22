@@ -52,3 +52,7 @@ Sellbrite generated unique sequence number
 
 🔴 **400** 
 
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
+

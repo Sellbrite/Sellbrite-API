@@ -30,3 +30,7 @@ Sellbrite uses the ISO 8601 time format for all datetime values. Datetime stamps
 min_ordered_at: "2017-01-06T22:28:42Z"
 ```
 
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
+

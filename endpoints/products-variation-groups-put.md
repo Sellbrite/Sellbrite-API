@@ -72,3 +72,7 @@ Lets say you have a t-shirt that comes in two sizes: "regular" and "large". Firs
 
 🔴 **400** 
 
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
+

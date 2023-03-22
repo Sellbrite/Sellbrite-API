@@ -32,3 +32,8 @@ Clients who use the Sellbrite API are subjected to two rate limits:
 If your application hits the rate limit, an HTTP 403 Forbidden response will be returned with this body:
 
 `Rate Limit Exceeded`
+
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
+

@@ -66,3 +66,7 @@ POST https://api.sellbrite.com/v1/shipments
 
 🔴 **422** 
 
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
+

@@ -24,3 +24,7 @@
 
 For information about how to access and obtain your API credentials, please review [this API Guide](../credentials).
 
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
+
