@@ -24,3 +24,7 @@ This RESTful API is made available to our merchants to empower them to build exa
 
 Before getting started, you'll need to [sign up for a Sellbrite account](https://app.sellbrite.com/merchants/sign_up) and get your API credentials.
 
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
+

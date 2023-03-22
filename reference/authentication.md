@@ -37,4 +37,7 @@ curl --user aladdin:opensesame "https://api.sellbrite.com/v1/orders/7777"
 
 Example for a curl request using basic auth
 
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
 

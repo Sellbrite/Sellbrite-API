@@ -54,4 +54,7 @@ This POST endpoint creates an inventory record only if it does not exist. If the
 
 🟢 **201** 
 
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
 

@@ -71,4 +71,8 @@ Exactly one of "on_hand" or "available" field must exist for each individual inv
 
 🟢 **200** 
 
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
+
 

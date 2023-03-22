@@ -49,3 +49,7 @@ All product response will have some common properties such as sku, name, descrip
 
 🔴 **400** 
 
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
+

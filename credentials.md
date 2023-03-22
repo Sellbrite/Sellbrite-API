@@ -35,3 +35,7 @@ curl --user auth_token:secret_key "https://api.sellbrite.com/v1/orders/7777"
 
 Please see the [reference guides](reference/introduction) for more examples. If you need more support, please send any questions to [developer@sellbrite.com](mailto:developer@sellbrite.com)
 
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
+

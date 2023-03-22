@@ -140,3 +140,8 @@ This endpoint will return a list of orders. Returns an array of JSON objects wit
 
 🟢 **200** 
 
+<br><br><br>
+
+If you have any questions or doubts, visit our [discussion page](https://github.com/Sellbrite/Sellbrite-API/discussions).
+
+
