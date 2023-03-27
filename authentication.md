@@ -4,7 +4,7 @@
 
 ### Menu
 
-[Getting Started with Sellbrite API](/Sellbrite-API)
+[Getting Started with Sellbrite API](/)
 
 [Test/Developer accounts](dev-accounts)
 
