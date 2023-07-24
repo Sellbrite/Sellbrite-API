@@ -80,7 +80,7 @@ The sku must be unique in your product catalog
   gtin: String,
   epid: String,
   image_list: Array of Strings,
-  custom_attributes: Array of Strings,
+  custom_attributes: Object,
   notes: String
 }
 ```
