@@ -62,7 +62,7 @@ Exactly one of "on_hand" or "available" field must exist for each individual inv
     on_hand: int32, (REQUIRED, Physical quantity in the warehouse (exactly one of on_hand or available field must exist in payload))
     available: int32, (REQUIRED, Available quantity to ship from this warehouse (exactly one of on_hand or available field must exist in payload))
     bin_location: String, (Bin location where inventory is located)
-    cost: int32 (Cost of inventory)
+    cost: numeric(10,2) (Cost of inventory)
   }
 }
 ```
